@@ -108,16 +108,62 @@ img {
 
 .group-img-active {
      display: inline-block;
-     width: 90%;
-     max-width: 350px;
+     width: 75%;
+     max-width: 300px;
+     margin: 10px;
 }
-
-
 
 
 
 /* ---------- СТИЛІ ДЛЯ ГОЛОВНОЇ СТОРІНКИ (комп'ютер) ---------- */
 
 @media (min-width: 769px) {
+
+     .wrap-heading {
+          width: 50%;
+          height: auto;
+          padding: 5px;
+          position: absolute;
+          left: 50px;
+          top: 100px;
+     }
+
+     .wrap-heading h1{
+          font-size: 1.6rem;
+     }
+     
+     .wrap-heading p{
+          font-size: 1.4rem;
+     }
+
+     .wrap-content {
+          max-width: 500px;
+          padding: 15px;
+          position: absolute;
+          left: 100px;
+          top: 200px;
+     }
+     
+     .group {
+          border-bottom: 3px solid black;
+          margin-bottom: 7px;
+     }
+     
+     .group-plus {
+          display: inline-block;
+          font-size: 2rem;
+     }
+     
+     .group-heading {
+          display: inline-block;
+          font-size: 1.5rem;
+          left: 7px;
+          margin-bottom: 7px;
+     }
+     
+     .group-text-active {
+          font-size: 1.25rem;
+          display: inline-block;
+     }
 
 }
