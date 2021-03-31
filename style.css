@@ -2,7 +2,8 @@
 
 /* ---------- ЗАГАЛЬНЕ ---------- */
 :root {
-     --plus: #fd3d1c;
+     --orange: #ff4b2b;
+     --plus: #5334ff;
 
      font-size: 15px;
 }
@@ -106,6 +107,7 @@ img {
 }
 
 .group-img-active {
+     display: inline-block;
      width: 90%;
      max-width: 350px;
 }
